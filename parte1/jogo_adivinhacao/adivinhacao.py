@@ -1,4 +1,3 @@
-from re import A
 
 
 print("*-" * 17)
@@ -17,5 +16,5 @@ else:
     print("Você errou!!")
 
 print("-*" * 17)
-print("Fim do jogo!!")
+print("Fim do jogo!!") 
 
