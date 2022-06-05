@@ -1,9 +1,12 @@
+import random
 
-print("*-" * 17)
+
+print("=-" * 17)
 print("Bem vindo ao jogo da Adivinhação!")
-print("-*" * 17)
+print("-=" * 17)
 
-numero_secreto = 42
+numero_secreto = round(random.randrange(1,101))
+
 total_de_tentativas = 3
 
 for rodada in range(1, total_de_tentativas + 1):
